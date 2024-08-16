@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=FIT_TCM.OutJob
+Name=FIT_PM12.OutJob
 Description=
 TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
@@ -27,7 +27,7 @@ OutputMedium1=Print Job
 OutputMedium1_Type=Printer
 OutputMedium1_Printer=
 OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputMedium2=TCM
+OutputMedium2=PDF
 OutputMedium2_Type=Publish
 OutputMedium3=Folder Structure
 OutputMedium3_Type=GeneratedFiles
@@ -36,7 +36,7 @@ OutputMedium4_Type=Multimedia
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
-OutputDocumentPath1=[Project Physical Documents]
+OutputDocumentPath1=
 OutputVariantName1=AD9910
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
@@ -250,15 +250,15 @@ Configuration10_Name1=OutputConfigurationParameter1
 Configuration10_Item1=Record=LayerStackReportView|Units=Metric|ColumnsCount=8|Column0Name=Name|Column0Title=Name|Column0Visible=True|Column1Name=Material|Column1Title=Material|Column1Visible=True|Column2Name=Thickness|Column2Title=Thickness|Column2Visible=True|Column3Name=Constant|Column3Title=Constant|Column3Visible=True|Column4Name=DielectricConstant|Column4Title=Dk|Column4Visible=True|Column5Name=CoverlayExpansion|Column5Title=Coverlay expansion|Column5Visible=False|Column6Name=ComponentPlacement|Column6Title=Orientation|Column6Visible=False|Column7Name=CopperOrientation|Column7Title=Copper Orientation|Column7Visible=False|DocumentPath=D:\Dropbox\DESIGNS\MISC\ALICE\Politechnika-do-przeslania\FIT_TCM\TCM.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_TCM_PCB\Project Outputs for FIT_TCM\TCM.PDF
+OutputFilePath2=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_PM12_PCB\Project Outputs for FIT_PM12\CFD.PDF
 ReleaseManaged2=0
-OutputBasePath2=Project Outputs for FIT_TCM\
+OutputBasePath2=Project Outputs for FIT_PM12\
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=TCM
+OutputFileName2=FIT_PM12
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -277,9 +277,9 @@ ShowComponentParameters2=0
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_TCM_PCB\Project Outputs for FIT_TCM\
+OutputFilePath3=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_PM12_PCB\Project Outputs for FIT_PM12\
 ReleaseManaged3=0
-OutputBasePath3=Project Outputs for FIT_TCM\
+OutputBasePath3=Project Outputs for FIT_PM12\
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -292,7 +292,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for FIT_TCM
+OutputBasePath4=Project Outputs for FIT_PM12
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -329,9 +329,9 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_TCM_PCB\Project Outputs for FIT_TCM\TCM.PDF
+RelativeOutputPath2=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_PM12_PCB\Project Outputs for FIT_PM12\CFD.PDF
 OpenOutputs2=1
-RelativeOutputPath3=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_TCM_PCB\Project Outputs for FIT_TCM\
+RelativeOutputPath3=D:\Dropbox\DESIGNS\MISC\ALICE\PM TCM\FIT_PM12_PCB\Project Outputs for FIT_PM12\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
